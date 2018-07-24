@@ -7,4 +7,7 @@ Steps:
 3. sudo ./postinstall.sh
 4. Prey it installs everything :)
 
+Notes:
+It is assumed that you are familar with how to edit your /etc/apt/sources.list file, this will be needed to install all software.
+
 It was not meant to be complicated. Download, run and wait.
