@@ -8,6 +8,7 @@ Steps:
 4. Prey it installs everything :)
 
 Notes:
-It is assumed that you are familar with how to edit your /etc/apt/sources.list file, this will be needed to install all software.
+1. It is assumed that you are familar with how to edit your /etc/apt/sources.list file, this will be needed to install all software.
+2. Designed for Debian Testing.
 
 It was not meant to be complicated. Download, run and wait.
