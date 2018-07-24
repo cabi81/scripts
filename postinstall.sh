@@ -22,7 +22,7 @@ apt-get install i3 openbox obconf obmenu xorg compton -y
 apt-get install ssh sudo screen apt-transport-https htop gcc git dstat wireshark linux-headers-amd64 samba -y
 	
 # Installing Appearance/Theme tools:
-apt-get install lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappearance gtk-theme-switch gtk-chtheme qt4-qtconfig xfonts-terminus ttf-mscorefonts-installer fonts-liberation fonts-font-awesome conky tint2 neofetch dzen2 -y
+apt-get install lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappearance gtk-theme-switch gtk-chtheme qt4-qtconfig xfonts-terminus ttf-mscorefonts-installer fonts-liberation fonts-font-awesome conky tint2 neofetch dzen2 arc-theme -y
 	
 # Installing Audio/Visual tools:
 apt-get install moc vlc pulseaudio -y
