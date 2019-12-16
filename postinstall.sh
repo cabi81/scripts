@@ -11,6 +11,11 @@
 # v0.1 - Initial Release (22/07/2018)
 # v0.2 - Added Updating sources.list (16/12/2019)
 #        Added ACYLS Fonts (16/12/2019)
+#        Enabling LightDM
+#        Added Reboot
+#
+#
+#
 #
 ##########
 
@@ -58,6 +63,12 @@ apt-get install google-chrome-stable filezilla -y
 # Installing Fonts:
 git clone https://github.com/worron/ACYLS.git ~/.icons/ACYLS
 
-sleep 10s
-
 echo "Installation is now complete..."
+
+# Enabling LightDM:
+systemctl enable lightdm
+
+# Reboot
+echo "System will now reboot!"
+sleep 10s
+reboot
