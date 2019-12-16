@@ -14,7 +14,7 @@
 #        Enabling LightDM
 #        Added Reboot
 #	 Removed agave
-#
+#	 Added User-specific Openbox
 #
 #
 ##########
@@ -67,6 +67,13 @@ echo "Installation is now complete..."
 
 # Enabling LightDM:
 systemctl enable lightdm
+
+# User-specific Openbox:
+echo "Type in a username that you will be using i.e. That is a non root account!"
+read varname
+echo "Changes will be applied to $varname username."
+cp -r /etc/xdg/openbox /home/$varname/.config/
+echo "Done!"
 
 # Reboot
 echo "System will now reboot!"
