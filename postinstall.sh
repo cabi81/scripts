@@ -13,7 +13,7 @@
 #        Added ACYLS Fonts (16/12/2019)
 #        Enabling LightDM
 #        Added Reboot
-#
+#	 Removed agave
 #
 #
 #
@@ -49,7 +49,7 @@ apt-get install lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappea
 apt-get install moc vlc pulseaudio pavucontrol -y
 
 # Installing GUI tools:
-apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 agave -y
+apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 -y
 
 # Installing Additional tools:
 apt-get install wicd feh ranger tar nano sakura unrar rar xarchiver scrot alsa-utils -y
