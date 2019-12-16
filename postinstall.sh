@@ -23,7 +23,7 @@ fi
 
 # Updating sources.list:
 if [ -f /etc/apt/sources.list ]; then
-	sudo sed -i 's|main|main contrib non-free|g' /etc/apt/sources.list
+	sed -i 's|main|main contrib non-free|g' /etc/apt/sources.list
 fi
 
 sleep 10s
