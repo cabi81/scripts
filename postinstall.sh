@@ -10,7 +10,7 @@
 #
 # v0.1 - Initial Release (22/07/2018)
 # v0.2 - Added Updating sources.list (16/12/2019)
-#		 Added ACYLS Fonts (16/12/2019)
+#        Added ACYLS Fonts (16/12/2019)
 #
 ##########
 
