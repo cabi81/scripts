@@ -69,10 +69,10 @@ echo "Installation is now complete..."
 systemctl enable lightdm
 
 # User-specific Openbox:
-echo "Type in a username that you will be using i.e. That is a non root account!"
+echo "Type in a username that you will be using for your home directory"
 read varname
 echo "Changes will be applied to $varname username."
-cp -r /etc/xdg/openbox /home/$varname/.config/
+cp -r /etc/xdg/openbox/ /home/$varname/.config/
 echo "Done!"
 
 # Reboot
