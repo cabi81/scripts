@@ -9,6 +9,6 @@ Steps:
 
 Notes:
 1. It is assumed that you are familar with how to edit your /etc/apt/sources.list file, this will be needed to install all software.
-2. Designed for Debian Testing.
+2. Designed for Debian.
 
 It was not meant to be complicated. Download, run and wait.
