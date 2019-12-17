@@ -2,21 +2,24 @@
 
 #Info: Simple script that installs additional useful programs to a Debian Netinstall installation.
 #Author: cabi81
-#Version: v0.2
-#Date: 16/12/2019 
+#Version: v0.3
+#Date: 17/12/2019 
 
 ##########
 # History
 #
 # v0.1 - Initial Release (22/07/2018)
 # v0.2 - Added Updating sources.list (16/12/2019)
-#        Added ACYLS Fonts (16/12/2019)
+#        Added ACYLS Fonts
 #        Enabling LightDM
 #        Added Reboot
 #	 Removed agave
 #	 Added User-specific Openbox
 #	 Removed sakura
 #	 Added rxvt-unicode
+# v0.3 - Added IOMMU - GPU Passthrough (17/12/2019)
+#
+#
 ##########
 
 #Notes: Must be root to run this script!
@@ -30,6 +33,12 @@ fi
 if [ -f /etc/apt/sources.list ]; then
 	sed -i 's|main|main contrib non-free|g' /etc/apt/sources.list
 fi
+
+# IOMMU - GPU Passthrough
+if [ -f /etc/default/grub ]; then
+	sed -i 's|GRUB_CMDLINE_LINUX_DEFAULT="quiet"|GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on"|g' /etc/default/grub
+	update-grub
+fi	
 
 sleep 10s
 
