@@ -18,7 +18,7 @@
 #	 Removed sakura
 #	 Added rxvt-unicode
 # v0.3 - Added IOMMU - GPU Passthrough (17/12/2019)
-#
+#	 Added pcmanfm
 #
 ##########
 
@@ -61,7 +61,7 @@ apt-get install moc vlc pulseaudio pavucontrol -y
 apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 -y
 
 # Installing Additional tools:
-apt-get install wicd feh ranger tar nano rxvt-unicode unrar rar xarchiver scrot alsa-utils -y
+apt-get install wicd feh ranger tar nano rxvt-unicode unrar rar xarchiver scrot alsa-utils pcmanfm -y
 
 # Installing Internet tools:
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
