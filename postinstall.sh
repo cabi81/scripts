@@ -37,7 +37,7 @@ fi
 # IOMMU - GPU Passthrough
 if [ -f /etc/default/grub ]; then
 	sed -i 's|GRUB_CMDLINE_LINUX_DEFAULT="quiet"|GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on"|g' /etc/default/grub
-	update-grub
+	/sbin/update-grub
 fi	
 
 sleep 10s
