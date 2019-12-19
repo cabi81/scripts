@@ -3,7 +3,7 @@
 #Info: Simple script that installs additional useful programs to a Debian Netinstall installation.
 #Author: cabi81
 #Version: v0.3
-#Date: 17/12/2019 
+#Date: 20/12/2019 
 
 ##########
 # History
@@ -19,6 +19,8 @@
 #	 Added rxvt-unicode
 # v0.3 - Added IOMMU - GPU Passthrough (17/12/2019)
 #	 Added pcmanfm
+#	 Added User-specific additions (20/12/2019)
+#
 #
 ##########
 
@@ -81,7 +83,9 @@ systemctl enable lightdm
 echo "Type in a username that you will be using for your home directory"
 read varname
 echo "Changes will be applied to $varname username."
+runuser -l $varname -c "xdg-user-dirs-update --force"
 cp -r /etc/xdg/openbox/ /home/$varname/.config/openbox/
+cp -r ~/.icons/ACYLS /home/$varname/.icons/
 echo "Done!"
 
 # Reboot
