@@ -86,6 +86,8 @@ echo "Changes will be applied to $varname username."
 runuser -l $varname -c "xdg-user-dirs-update --force"
 cp -r /etc/xdg/openbox/ /home/$varname/.config/openbox/
 cp -r ~/.icons/ACYLS /home/$varname/.icons/
+#NOTES: Testing
+wget https://raw.githubusercontent.com/DimitriDokuchaev/dotfiles-BunsenLabs/master/.config/openbox/menu.xml && mv /home/$varname/.config/openbox/
 echo "Done!"
 
 # Reboot
