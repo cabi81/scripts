@@ -87,7 +87,7 @@ runuser -l $varname -c "xdg-user-dirs-update --force"
 cp -r /etc/xdg/openbox/ /home/$varname/.config/openbox/
 cp -r ~/.icons/ACYLS /home/$varname/.icons/
 #NOTES: Testing
-wget https://raw.githubusercontent.com/DimitriDokuchaev/dotfiles-BunsenLabs/master/.config/openbox/menu.xml && mv menu.xml /home/$varname/.config/openbox/
+wget https://raw.githubusercontent.com/DimitriDokuchaev/dotfiles-BunsenLabs/master/.config/openbox/menu.xml && cp -f menu.xml /home/$varname/.config/openbox/
 echo "Done!"
 
 # Reboot
