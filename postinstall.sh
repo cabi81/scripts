@@ -20,7 +20,7 @@
 # v0.3 - Added IOMMU - GPU Passthrough (17/12/2019)
 #	 Added pcmanfm
 #	 Added User-specific additions (20/12/2019)
-#
+# v0.4 - Minor edits and additions e.g. i3lock - (1/1/2020)
 #
 ##########
 
