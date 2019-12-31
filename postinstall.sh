@@ -20,7 +20,7 @@
 # v0.3 - Added IOMMU - GPU Passthrough (17/12/2019)
 #	 Added pcmanfm
 #	 Added User-specific additions (20/12/2019)
-# v0.4 - Minor edits and additions e.g. i3lock - (1/1/2020)
+# v0.4 - Minor edits and additions e.g. i3lock, orage - (1/1/2020)
 #
 ##########
 
@@ -60,7 +60,7 @@ apt-get install lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappea
 apt-get install moc vlc pulseaudio pavucontrol -y
 
 # Installing GUI tools:
-apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 mousepad -y
+apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 mousepad orage -y
 
 # Installing Additional tools:
 apt-get install wicd feh ranger tar nano rxvt-unicode unrar rar xarchiver scrot alsa-utils i3lock -y
