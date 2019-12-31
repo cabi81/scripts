@@ -60,7 +60,7 @@ apt-get install lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappea
 apt-get install moc vlc pulseaudio pavucontrol -y
 
 # Installing GUI tools:
-apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 -y
+apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 mousepad -y
 
 # Installing Additional tools:
 apt-get install wicd feh ranger tar nano rxvt-unicode unrar rar xarchiver scrot alsa-utils -y
