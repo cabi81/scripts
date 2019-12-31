@@ -63,7 +63,7 @@ apt-get install moc vlc pulseaudio pavucontrol -y
 apt-get install pcmanfm nitrogen mupdf rofi gimp gcolor2 mousepad -y
 
 # Installing Additional tools:
-apt-get install wicd feh ranger tar nano rxvt-unicode unrar rar xarchiver scrot alsa-utils -y
+apt-get install wicd feh ranger tar nano rxvt-unicode unrar rar xarchiver scrot alsa-utils i3lock -y
 
 # Installing Internet tools:
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
