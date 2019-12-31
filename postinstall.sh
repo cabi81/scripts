@@ -3,7 +3,7 @@
 #Info: Simple script that installs additional useful programs to a Debian Netinstall installation.
 #Author: cabi81
 #Version: v0.3
-#Date: 20/12/2019 
+#Date: 1/1/2020 
 
 ##########
 # History
@@ -20,7 +20,11 @@
 # v0.3 - Added IOMMU - GPU Passthrough (17/12/2019)
 #	 Added pcmanfm
 #	 Added User-specific additions (20/12/2019)
-# v0.4 - Minor edits and additions e.g. i3lock, orage - (1/1/2020)
+# v0.4 - Minor edits and additions (1/1/2020)
+#	 Added i3lock
+#	 Added orage
+#
+#
 #
 ##########
 
